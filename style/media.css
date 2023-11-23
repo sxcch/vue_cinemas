@@ -1,0 +1,1128 @@
+@media (max-width:1200px) {
+    .header__intro {
+        min-height: 650px;
+    }
+}
+
+@media (max-width:1080px) {
+    .films__items {
+        display: grid;
+        grid-template-columns: 350px 350px;
+        justify-items: center;
+        justify-content: center;
+        row-gap: 20px;
+
+    }
+}
+
+.header__intro {
+    min-height: 550px;
+}
+
+@media (max-width:1100px) {
+    .collections__items {
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 60px;
+        row-gap: 20px;
+    }
+}
+
+@media (max-width:900px) {
+    .trailer {
+        height: 400px;
+    }
+
+    .trailer__content {
+        gap: 25px;
+    }
+
+    .header__poster {
+        padding: 7px 0;
+    }
+
+    .header {
+        top: -60px;
+    }
+
+    .nav {
+        height: 75px;
+    }
+
+    .nav__content-link:hover::after {
+        bottom: -7px;
+    }
+}
+
+@media(max-width:800px) {
+    .header__intro-title {
+        font-size: 50px;
+    }
+
+    .header__intro-text {
+        margin: 18px 0 39px;
+    }
+
+    .section__title {
+        font-size: 27px;
+        margin-bottom: 40px;
+    }
+
+    .films__item-text {
+        margin: 12px 0 18px;
+    }
+
+    .films__item {
+        height: 302px;
+    }
+
+    .films__item-bg {
+        object-position: top;
+    }
+
+    .films__item-info {
+        padding: 15px 15px;
+    }
+
+    .trailer__content {
+        gap: 15px;
+    }
+
+    .trailer__content_txt {
+        font-size: 18px;
+    }
+
+    .series__got-txt {
+        margin: 12px 0 23px;
+    }
+
+    .series__got {
+        height: 305px;
+    }
+
+    .series__got-title {
+        font-size: 26px;
+    }
+
+    .series__got-btn {
+        padding: 14px 30px;
+    }
+
+    .series__cards {
+        grid-auto-rows: 120px;
+    }
+
+    .series__card-icon {
+        font-size: 30px;
+    }
+
+    .series__card-name {
+        font-size: 19px;
+    }
+
+    .footer {
+        margin-top: 46px;
+        padding: 18px 0;
+    }
+
+
+    .header__intro {
+        min-height: 415px;
+    }
+
+    .collection__item {
+        height: 183px;
+        border-radius: 3px;
+    }
+
+    .series__cards {
+        gap: 15px;
+    }
+}
+
+@media(max-width:700px) {
+    .nav {
+        height: 70px;
+    }
+
+    .nav__content-link:hover::after {
+        bottom: -4px;
+    }
+
+    .nav__content-link {
+        font-size: 17px;
+    }
+
+    .nav__img {
+        height: 35px;
+    }
+
+    .nav__content-logo {
+        font-size: 17px;
+    }
+
+    .header__intro {
+        min-height: 400px;
+    }
+
+    .header {
+        top: -49px;
+    }
+
+    .header__intro-title {
+        font-size: 42px;
+    }
+
+    .films__item {
+        width: 250px;
+    }
+
+    .footer {
+        margin-top: 42px;
+        padding: 15px 0;
+    }
+
+    .social__apps {
+        gap: 10px;
+    }
+
+    .footer__content-txt {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:650px) {
+    .films__items {
+        grid-template-columns: 340px 340px;
+    }
+
+    .series__got-txt {
+        margin: 12px 0 17px;
+    }
+
+    .series__cards {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .series__card:nth-child(1) {
+        grid-column: 1 / 3;
+    }
+
+    .series__cards {
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: 140px;
+    }
+}
+
+@media(max-width:615px) {
+    .films__items {
+        grid-template-columns: 280px 280px;
+    }
+
+    .films__item-info {
+        padding: 15px 15px;
+    }
+
+    .trailer__content img {
+        width: 50%;
+    }
+
+    .trailer {
+        height: 330px;
+        background: linear-gradient(90deg, #DEF7FF 0%, #F4FCFF 25.64%, rgba(255, 255, 255, 0.00) 100.72%);
+    }
+
+    .collections {
+        padding: 30px 0;
+    }
+
+    .films {
+        padding: 30px 0;
+    }
+
+    .header__poster {
+        padding: 2px 0;
+        gap: 10px;
+    }
+
+    .header__poster-text {
+        font-size: 14px;
+    }
+
+    .series__got-txt {
+        line-height: 19px;
+    }
+
+    .header__intro {
+        min-height: 320px;
+    }
+
+    .header__intro-link {
+        padding: 13px 28px;
+    }
+}
+
+
+@media(max-width:550px) {
+    .films__item-text {
+        margin: 12px 0 19px;
+    }
+
+    .films__item-text2 {
+        line-height: 17px;
+    }
+
+    .films__items {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .films__item-info {
+        padding: 20px 14.5px 18px;
+    }
+
+    .films__item {
+        height: 294px;
+        width: 247px;
+    }
+
+    .section__title {
+        margin-bottom: 35px;
+    }
+
+    .films {
+        padding: 50px 0 60px;
+    }
+
+    .collections {
+        padding: 45px 0;
+    }
+
+    .series__got-txt {
+        margin: 7px 0 10px;
+
+    }
+
+    .series__got-btn {
+        padding: 14px 24px;
+    }
+
+    .collection__item::before {
+        background-size: 95% 97%;
+    }
+
+    .collection__item {
+        height: 168px;
+        max-width: 310px;
+    }
+
+    .series__card-name {
+        font-size: 17px;
+    }
+
+    .trailer {
+        background: linear-gradient(90deg, #DEF7FF 0%, #F4FCFE 9.64%, rgba(255, 255, 255, 0.00) 100.72%);
+    }
+
+    .trailer__content_txt {
+        line-height: 25px;
+    }
+
+    .footer__content-txt {
+        width: 200px;
+        height: 25px;
+        font-size: 16px;
+    }
+
+    .social__apps {
+        gap: 38px;
+    }
+
+    .series__cards {
+        grid-auto-rows: 145px;
+    }
+}
+
+@media(max-width:525px) {
+    .series__got-txt {
+        width: 489px;
+    }
+
+    .section__title {
+        font-size: 24px;
+    }
+
+    .header__intro-title {
+        font-size: 30px;
+    }
+
+    .nav__content-link:hover::after {
+        bottom: 1px;
+    }
+
+    .header__intro-link {
+        padding: 15px 39px;
+    }
+
+    .header__intro {
+        min-height: 355px;
+    }
+
+    .films__item-info {
+        padding: 20px 14.5px 0px;
+    }
+
+    .header__poster-icon {
+        font-size: 38px;
+    }
+
+    .header {
+        top: -48px;
+    }
+
+
+    .header__poster-text {
+        height: 30px;
+    }
+
+    .header__poster {
+        padding: 5px 0;
+    }
+
+    .nav__img {
+        height: 30px;
+    }
+
+    .nav__content-logo {
+        font-size: 16px;
+    }
+
+    .nav {
+        height: 63px;
+    }
+
+    .films__item-text2 {
+        width: 210px;
+    }
+
+    .nav__content-link {
+        font-size: 14px;
+    }
+}
+
+@media(max-width:500px) {
+    .films__item-icon {
+        font-size: 35px;
+    }
+
+    .films__item-text {
+        margin: 9px 0 10px;
+    }
+
+    .trailer {
+        height: 370px;
+    }
+
+    .films__item {
+        height: 288px;
+        width: 220px;
+    }
+
+    .collection__item {
+        height: 162px;
+        max-width: 300px;
+    }
+
+    .series__got-txt {
+        width: 470px;
+        margin: 4px 0 7px;
+    }
+
+    .series__got-btn {
+        padding: 12px 19px;
+    }
+
+    .series__got {
+        height: 300px;
+    }
+
+    .series__got-title {
+        font-size: 24px;
+    }
+
+    .nav__content-link:hover::after {
+        bottom: -20;
+    }
+}
+
+@media(max-width:480px) {
+
+
+    .films {
+        padding: 35px 0 50px;
+    }
+
+    .header__intro {
+        min-height: 345px;
+    }
+
+    .series__got-txt {
+        width: 457px;
+    }
+
+    .footer__content-txt {
+        width: 190px;
+    }
+
+    .google {
+        width: 100px;
+    }
+
+    .app {
+        width: 95px;
+    }
+
+    .series__cards {
+        grid-auto-rows: 130px;
+        gap: 10px;
+    }
+}
+
+@media(max-width:450px) {
+    .header__poster-icon {
+        font-size: 34px;
+    }
+
+    .header__poster-text {
+        width: 150px;
+    }
+
+    .nav__img {
+        width: 50px;
+    }
+
+    .nav__content-link {
+        padding: 20px 7px;
+    }
+
+    .films__item {
+        width: 210px;
+    }
+
+    .films__item-text2 {
+        width: 200px;
+    }
+
+    .films__item-name {
+        font-size: 20px;
+    }
+
+    .trailer__logo {
+        width: 435px;
+        height: 90px;
+    }
+
+    .trailer__content_txt {
+        max-width: 424px;
+    }
+
+    .collection__item {
+        height: 150px;
+        max-width: 284px;
+    }
+
+    .collection__item::before {
+        background-size: 93% 95%;
+    }
+
+    .section__title {
+        font-size: 22px;
+        margin-bottom: 27px;
+    }
+
+    .collection__item-title {
+        font-size: 18px;
+    }
+
+    .series__got-txt {
+        width: 418px;
+        margin: 6px 0 5px;
+        font-size: 15px;
+    }
+
+    .series__got-title {
+        font-size: 22px;
+    }
+
+
+
+    .google {
+        width: 95px;
+    }
+
+    .app {
+        width: 90px;
+    }
+
+    .footer__content-txt {
+        width: 182px;
+        font-size: 15px;
+    }
+
+    .cinema {
+        font-size: 14px;
+    }
+}
+
+@media(max-width:420px) {
+    .nav__content-link {
+        padding: 20px 5px;
+        font-size: 14px;
+    }
+
+    .header__intro-text {
+        margin: 14px 0 27px;
+    }
+
+    .header__intro-title {
+        font-size: 30px;
+    }
+
+    .header__intro-link {
+        padding: 15px 24px;
+    }
+
+    .header__intro {
+        min-height: 320px;
+    }
+
+    .films__item-text2 {
+        width: 178px;
+    }
+
+    .films__item-text {
+        margin: 5px 0 0;
+        padding: 5px 14px;
+    }
+
+    .trailer__logo {
+        width: 380px;
+        height: 75px;
+    }
+
+    .trailer__content-btn {
+        padding: 14px 33px;
+    }
+
+    .trailer {
+        height: 360px;
+    }
+
+    .collection__item {
+        height: 136px;
+        width: 250px;
+    }
+
+    .collection__item-title {
+        font-size: 17px;
+    }
+
+    .series__got-txt {
+        width: 370px;
+        font-size: 14px;
+    }
+
+    .series__got-title {
+        font-size: 19px;
+    }
+
+    .series__got-btn {
+        padding: 9px 14px;
+    }
+
+    .series__cards {
+        grid-auto-rows: 115px;
+    }
+
+    .series__card {
+        gap: 17px;
+    }
+
+    .footer__content-txt {
+        width: 160px;
+        font-size: 14px;
+    }
+
+    .footer {
+        margin-top: 30px;
+        padding: 12px 0;
+    }
+
+    .films__item {
+        width: 195px;
+    }
+
+    .nav__content-logo {
+        font-size: 14px;
+        line-height: 11px;
+    }
+}
+
+@media(max-width:400px) {
+    .films__item-text2 {
+        line-height: 15px;
+        width: 150px;
+    }
+
+    .trailer__content_txt {
+        max-width: 362px;
+        font-size: 17px;
+    }
+
+    .trailer__content {
+        gap: 10px;
+    }
+
+    .trailer__content-btn {
+        padding: 12px 27px;
+    }
+
+    .trailer__logo {
+        width: 374px;
+    }
+
+    .trailer {
+        height: 340px;
+    }
+
+    .films__item {
+        height: 320px;
+    }
+
+    .films__item-info {
+        gap: 8px;
+    }
+
+    .header__poster-text {
+        font-size: 14px;
+    }
+
+    .header__poster {
+        gap: 10px;
+    }
+
+    .social__apps {
+        gap: 12px;
+    }
+
+    .nav {
+        height: 50px;
+    }
+
+    .header__poster-icon {
+        font-size: 30px;
+    }
+
+    .header__intro {
+        min-height: 290px;
+    }
+
+    .header__intro-title {
+        font-size: 27px;
+    }
+
+    .header__intro-link {
+        padding: 12px 16px;
+    }
+
+    .header__intro-text {
+        margin: 12px 0 22px;
+    }
+
+    .series__cards {
+        grid-auto-rows: 95px;
+    }
+
+    .collection__item {
+        height: 127px;
+        width: 230px;
+    }
+
+    .collections {
+        padding: 30px 0;
+    }
+
+    .series__got-txt {
+        width: 350px;
+        line-height: 16px;
+    }
+
+    .series__got {
+        height: 250px;
+    }
+
+    .footer {
+        margin-top: 20px;
+        padding: 10px 0;
+    }
+
+    .google {
+        width: 85px;
+    }
+
+    .app {
+        width: 80px;
+    }
+
+}
+
+@media(max-width:370px) {
+    .header__poster-icon {
+        font-size: 28px;
+    }
+
+    .header__poster-text {
+        width: 140px;
+        height: 28px;
+    }
+
+    .nav__content-logo {
+        line-height: 9px;
+    }
+
+    .header {
+        top: -45px;
+    }
+
+    .header__intro-text {
+        margin: 7px 0 13px;
+    }
+
+    .header__intro {
+        min-height: 270px;
+    }
+
+    .header__intro-link {
+        padding: 10px 10px;
+    }
+
+    .films {
+        padding: 20px 0 35px;
+    }
+
+    .films__item {
+        height: 310px;
+    }
+
+    .films__item-text {
+        padding: 5px 9px;
+    }
+
+    .trailer__logo {
+        height: 60px;
+    }
+
+    .trailer__content_txt {
+        line-height: 19px;
+        font-size: 16px;
+    }
+
+    .trailer {
+        height: 290px;
+    }
+
+    .trailer__content-btn {
+        padding: 11px 20px;
+    }
+
+    .series__got-txt {
+        width: 330px;
+        line-height: 15px;
+    }
+
+    .series__got-btn {
+        padding: 8px 8px;
+    }
+
+    .series__cards {
+        grid-auto-rows: 85px;
+        margin-top: 25px;
+    }
+
+    .footer__content-txt {
+        width: 152px;
+    }
+}
+
+@media(max-width:350px) {
+    .nav__content-link {
+        padding: 20px 3px;
+    }
+
+    .nav__img {
+        width: 45px;
+    }
+
+    .nav {
+        height: 43px;
+    }
+
+    .header {
+        top: -42px;
+    }
+
+    .header__intro-title {
+        font-size: 23px;
+    }
+
+    .header__intro-text {
+        line-height: 19px;
+        margin: 7px 0 10px;
+    }
+
+    .header__intro {
+        min-height: 245px;
+    }
+
+    .films__item {
+        height: 300px;
+    }
+
+    .films__item-icon {
+        font-size: 30px;
+    }
+
+    .collection__item {
+        height: 115px;
+        width: 211px;
+    }
+
+    .collection__item-title {
+        font-size: 15px;
+    }
+
+    .series__got-txt {
+        width: 290px;
+        line-height: 13px;
+    }
+
+    .series__got {
+        height: 230px;
+    }
+
+    .series__got-btn {
+        padding: 8px 6px;
+    }
+
+    .series__cards {
+        grid-auto-rows: 75px;
+    }
+
+    .social__apps {
+        gap: 2px;
+    }
+
+    .google {
+        width: 75px;
+    }
+
+    .app {
+        width: 70px;
+    }
+
+    .trailer__content_txt {
+        line-height: 17px;
+        max-width: 300px;
+    }
+}
+
+@media(max-width:330px) {
+    .header__poster {
+        gap: 6px;
+    }
+
+    .google {
+        display: none;
+    }
+
+    .no-google {
+        display: inline;
+        height: 20px;
+    }
+
+    .app {
+        display: none;
+    }
+
+    .no-app {
+        display: inline;
+    }
+
+    .bibiz {
+        display: block;
+    }
+
+    .cinema {
+        font-size: 11px;
+    }
+
+    .nav__content-logo {
+        line-height: 4px;
+    }
+
+    .header__intro-text {
+        line-height: 16px;
+        margin: 6px 0 8px;
+    }
+
+    .nav__content-link {
+        padding: 1px 3px;
+    }
+
+    .nav__content {
+        flex-direction: column;
+        gap: 4px;
+    }
+    .header__intro-title {
+        font-size: 21px;
+    }
+
+    .header__intro-text {
+        line-height: 14px;
+        font-size: 14px;
+    }
+
+    .header__intro-link {
+        padding: 7px 3px;
+        font-size: 14px;
+    }
+
+    .header__intro-info {
+        gap: 5px;
+    }
+
+    .films__item-text2 {
+        line-height: 12px;
+    }
+
+    .films__item {
+        width: 185px;
+        height: 230px;
+    }
+
+    .films__item-info {
+        gap: 4px;
+    }
+
+    .films__item-text {
+        padding: 2px 6px;
+    }
+
+    .films__item-name {
+        font-size: 18px;
+    }
+
+    .films__item-info {
+        padding: 8px 14.5px 0px;
+    }
+
+    .films {
+        padding: 10px 0 18px;
+    }
+
+    .section__title {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .trailer__content_txt {
+        line-height: 13px;
+        max-width: 280px;
+    }
+
+    .trailer__content-btn {
+        padding: 7px 8px;
+    }
+
+    .trailer__content img {
+        height: 17%;
+        width: 60%;
+    }
+
+    .trailer {
+        height: 240px;
+    }
+
+    .collection__item {
+        height: 100px;
+        width: 185px;
+    }
+
+    .collection__item-title {
+        font-size: 14px;
+    }
+
+    .collection__item::before {
+        background-size: 95% 95%;
+    }
+
+    .collections__items {
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 60px;
+        row-gap: 15px;
+    }
+
+    .collections {
+        padding: 20px 0;
+    }
+
+    .series__got-txt {
+        line-height: 14px;
+    }
+
+    .series__got-title {
+        font-size: 17px;
+    }
+
+    .series__got-btn {
+        padding: 5px 2px;
+    }
+
+    .series__got {
+        height: 255px;
+    }
+
+    .series__cards {
+        grid-auto-rows: 110px;
+        margin-top: 20px;
+        justify-content: center;
+        grid-template-columns: 92%;
+        grid-template-rows: 0;
+    }
+
+    .series__card:nth-child(1) {
+        grid-column: 1;
+    }
+
+    .series__card-icon {
+        font-size: 25px;
+    }
+
+    .series__card-name {
+        font-size: 14px;
+    }
+
+    .series__card {
+        gap: 9px;
+    }
+
+    .footer {
+        margin-top: 15px;
+        padding: 8px 0;
+    }
+
+    .nav {
+        min-height: 60px;
+    }
+}
